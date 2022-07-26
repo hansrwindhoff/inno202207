@@ -1,0 +1,9 @@
+go env -w GO111MODULE=off
+
+GOOS=js GOARCH=wasm go build -o  ../../assets/json.wasm
+
+
+
+
+https://golangbot.com/webassembly-using-go/
+
